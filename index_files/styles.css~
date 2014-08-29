@@ -1,0 +1,373 @@
+body .container .hmpg {
+  padding-top:155px;
+}
+body .hmpg{
+	max-width: 905px;
+	width:100%;
+	margin:0 auto;
+ }
+ h4{text-transform:uppercase;}
+ h4.prc-cut {
+	color: #f00;
+	text-decoration: line-through;
+	font-weight: normal;
+	line-height: 5px;
+	font-size: 15px;
+}
+ .stickeralign{max-width:1120px; width:100%; margin:0 auto;}
+ .stickeralign div {  float: left;}
+ .stickeralign .logintr {  float: right; margin-right:10px;}
+ .stickeralign .logintr a { color:#fff;}
+.slider{
+	position:absolute; 
+	left:0; 
+	height:365px; 
+	overflow:hidden; 
+	width:100%;
+	background-size:cover!important;
+	background-position:center center!important;
+	z-index:-1;
+	}
+.text-slider-container {
+	margin-top: -175px;
+	position: absolute;
+	width: 100%;
+	left: 0;
+	z-index:-1;
+}
+.slider img{width:100%;}
+.text-slider #slide-caption {
+  color: #FFFFFF;
+  font-size: 30px;
+  height: 75px;
+  line-height: 35px;
+  text-align: center;
+  font-weight:lighter;
+  padding:55px 0;
+}
+
+body .container .hmpg .tabs{margin:0 15px;}
+.tabs ul {
+  margin: 0;
+}
+.tabs li {
+  float: left;
+  height: 30px;
+  list-style-type: none;
+  padding: 0px;
+  width: 150px;
+}
+.tabs li a div {
+  padding:5px;
+  background:#fff;
+}
+.tabs #tabCtrl {
+  background: none repeat scroll 0 0 #FFFFFF;
+  float: left;
+  width: 100%;
+  min-height:160px;
+  height:auto;
+}
+.tabs a:hover{text-decoration:none;}
+#Domestic, #International {
+  padding: 20px;
+}
+#place, #place2{background:url("location.png") no-repeat scroll right center rgba(0, 0, 0, 0);}
+#tabCtrl input.datepicker, input.datepicker{background:url("calender.png") no-repeat scroll right center rgba(0, 0, 0, 0); cursor:pointer; border-color:#bbb;}
+#time{background:url("clock.png") no-repeat scroll right center rgba(0, 0, 0, 0); }
+.pax {
+  width: 150px;
+}
+.brand {
+	background: url('img/logo.png');
+	height: 60px;
+	width: 155px;
+	padding: 0!important;
+	margin: 7px;
+}
+.styled-select select {
+  background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+  border: 0 none;
+  border-radius: 0 0 0 0;
+  height: 25px;
+  margin: 0;
+  padding-top: 3px;
+  width: 130px;
+}
+.styled-select {
+  background: url("select.jpg") no-repeat scroll right center #FFFFFF;
+  border: 1px solid #BBBBBB;
+  float: left;
+  height: 26px;
+  margin: 15px 3px 0 0;
+  overflow: hidden;
+  width: 100px;
+}
+.styled-select.depttime {
+  width: 173px;
+}
+.styled-select.adult {
+  width: 202px;
+  margin-right:5px;
+}
+.styled-select.adult select {
+  width: 230px;
+}
+#Domestic .search-flight {
+width: 202px;
+}
+#time {
+  height: 18px;
+  margin: 15px 5px 0 0;
+  width: 190px;
+}
+#yt0 {
+min-width: 190px;
+}
+.search-flight {
+  background: none repeat scroll 0 0 #98CE44;
+  border-width: 0;
+  color: #FFFFFF;
+  height: 25px;
+  font-size: 14px;
+  padding: 0 20px;
+}
+form .search-flight {
+  margin-top:15px;
+  width:200px;
+  height:28px;
+}
+.hmpg .offer {
+  margin-top: 25px;
+}
+.offer{
+	padding:15px;
+}
+.bx-controls-direction {
+  float: right;
+  margin-top: -330px;
+}
+.offer-detail {
+  margin: 0;
+}
+.offer-detail .offer-detail-item {
+  background: none repeat scroll 0 0 #FFFFFF;
+  float: left;
+  list-style-type: none;
+  width: 240px;
+  padding:15px;
+  text-align:center;
+}
+.tripdetail, .pricedetail{margin-top:20px;}
+.tripdetail p, .pricedetail p{margin:0; color:#000;}
+.tripdetail .dtl{color:#808080; text-align:left;}
+.pricedetail .dtl{color:#98CE44; font-size:20px;}
+.tripdetail{float:left;}
+.pricedetail{float:right;}
+.odtl{border-top:1px solid #f4f4f4; text-align:justify; width:100%; float:left; margin:10px 0; color:#808080; font-size:12px;}
+.testimonials-bg {
+  background: url('img/testimonial.jpg');
+  background-size:cover;
+  min-height: 260px;
+  width: 100%;
+  margin:10px 0 0;
+  z-index:-1;
+  color:#fff;
+}
+.testimonial1 {
+  float: left;
+  padding: 15px;
+  width: 400px;
+  max-width:90%;
+}
+.testimonial1 p {
+  font-size: 12px;
+  text-align: justify;
+}
+.auth img {
+  border-radius: 50px 50px 50px 50px;
+  float: left;
+  margin-right: 20px;
+}
+.auth p {
+  padding-top: 15px;
+}
+.auth p b {
+  color: #FEBB14;
+}
+.whyus {
+  float: left;
+  padding: 15px 15px 15px 30px;
+  width: 420px;
+  max-width:90%;
+}
+.whyus ul {
+  margin: 0;
+}
+.whyus li {
+  float: left;
+  list-style-type: none;
+  margin: 10px 0;
+  width: 210px;
+  font-size:12px;
+  font-weight:bold;
+  line-height:35px;
+}
+.whyus img {
+  margin-right: 10px;
+}
+footer{
+	background:#fff;
+	padding:20px;
+	color:#808080;
+}
+footer{
+	font-size:12px;
+	text-align:center;
+}
+footer .contactinfo{border:1px solid #f5f5f5; border-width:1px 0;}
+.gototop{float:right; margin-right:-50px;}
+
+
+.sprite{background:url('sprite.png'); padding:0 10px; margin:0 8px;}
+.cnext {
+  background-position: -54px -18px;
+  padding: 7px 20px 0 10px;
+  margin:0;
+}
+.cprev {
+  background-position: -21px -18px;
+  padding: 7px 20px 0 10px;
+  margin:0;
+}
+.domestic {
+  background-position: -100px 0;
+  margin: 0 5px;
+  padding: 0 15px;
+}
+.international {
+  background-position: -152px 0;
+  margin: 0 5px;
+  padding: 0 10px;
+}
+.flight{
+	background-position: -129px 0;
+	margin: 0 5px;
+	padding: 0 12px;
+	}
+
+#sortable thead tr th span {
+  background-image: url('arrow.jpg');
+  cursor:pointer;
+}
+#sortable thead tr th.headerSortUp span {
+  background-image: url('up-arrow.jpg');
+}
+#sortable thead tr th.headerSortDown span {
+  background-image: url('down-arrow.jpg');
+}
+#sortable thead tr th span {
+	padding-right: 10px;
+	background-repeat: no-repeat;
+	background-position: 100% 60%;
+}
+.errorMessage {
+color: #f00;
+}	
+	
+.social{padding:0 8px;margin:0 2px}
+.contactphone{background-position:90px;}
+.contactmail{background-position:-70px -46px;}
+.contactphonew{background-position:-19px 0;}
+.contactmailw{background-position:0 0;}
+.twitter{background-position:-40px 0px; margin-left:10px;}
+.skype{background-position:-59px 0px;}
+.facebook{background-position:-72px 0px;}
+.google{background-position:-87px 0px;}
+
+.profile-sprite{ 
+	background:url('images/profile-sprite.png');
+	display:inline-block;
+	width:50px;
+	height:50px;
+	line-height:50px;
+	vertical-align:text-buttom;
+	}
+.profile{background-position:4px 0px;}
+.booking{background-position:0px -45px;}
+.history{background-position:0px -95px;}
+.forum{background-position:3px -140px;}
+
+.active .profile{background-position:-45px 0px;}
+.active .booking{background-position:-49px -45px;}
+.active .history{background-position:-49px -95px;}
+.active .forum{background-position:-46px -140px;}
+
+.editicon{
+	background:url('images/edit.png');
+	display:inline-block;
+	width:20px;
+	height:20px;
+	line-height:20px;
+	vertical-align:text-buttom;
+	float:right;
+	}
+
+	/*General Layout css */
+	
+.tab-content{
+        background:#fff;
+        padding:10px 20px;
+        min-height:375px;
+    }
+    .tab-content h4{color:#FFB612;}
+    .account-details {
+        background: none repeat scroll 0 0 #FDFDFD;
+        width: 100%;
+        padding:20px 0;
+    }
+    .booking-details th {
+        background-color: #FFB612 !important;
+        color: #FFFFFF;
+    }
+	.items th a {color: #fff;}
+	
+    .spr{display:block;width:14.4px;height:19px; margin-right:5px; float:left;}
+    .spr.airlines{background: url(nep-sprite.png) no-repeat;background-position:0px 0px;}
+    .spr.nep-time{background: url(nep-sprite.png) no-repeat;background-position:-17px 0px; width:13px;}
+    .spr.duration{background: url(nep-sprite.png) no-repeat;background-position:-30px 0px;}
+    .spr.destination{background: url(nep-sprite.png) no-repeat;background-position:-43px 0px;}
+    .spr.total-amt{background: url(nep-sprite.png) no-repeat;background-position:-57px 0px;}
+	
+	
+    .whyus span{display:inline;width:36px;height:35px;float:left;}
+    
+    .whyus .why-we-img{background: url(why-we-sprite.png) no-repeat; margin-right:10px;}
+    .whyus .cheap-flight{background-position:0px 0px;}
+    .whyus .availability{background-position:-37px 0px;}
+    .whyus .real-time{background-position:-74px 0px;}
+    .whyus .flex-payment{background-position:-111px 0px;}
+	
+	.fbbtn,.gmbtn{background:url('logingmfb.jpg'); width:175px; height:30px; margin: 10px 0;}
+	.gmbtn{background-position:0 30px;}
+	
+	/*Signup Buttons*/
+				a.button {
+                    width: 220px;
+                    height:41px;
+                    display: inline-block;
+                    margin:5px 0;
+                }
+                a.button.facebook {
+                    background: url('signup_buttons.png') no-repeat 0px -1px;
+                }
+                a.button.facebook:hover {
+                    background: url('signup_buttons.png') no-repeat 0px 1px;
+                }
+
+                a.button.google {
+                    background: url('signup_buttons.png') no-repeat 0px -44px;
+                }
+                a.button.google:hover {
+                    background: url('signup_buttons.png') no-repeat 0px -42px;
+                }

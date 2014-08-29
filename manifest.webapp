@@ -1,0 +1,17 @@
+{
+  "name": "Nepflights",
+  "description": "Domestic Flight Booking App.",
+  "launch_path": "/index.html",
+  "icons": {
+    "128": "/index_files/1527069_1416188098619137_836295752_n.png"
+  },
+  "developer": {
+    "name": "Smart Samaj",
+    "url": "http://www.smartsamaj.com"
+  },
+  "permissions": {
+    "desktop-notification": {
+      "description": "Needed for creating system notifications."
+    }
+  }
+}                                   
